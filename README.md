@@ -1,46 +1,32 @@
-# CasaFiducia — Landing Page
+# CasaFiducia — Premium Landing Page
 
-Static landing page for **CasaFiducia.ch**.
+Updated static landing page for **CasaFiducia.ch** with:
+- selected stock photos
+- premium section layout
+- subtle motion and scroll-reveal animations
+- improved visual hierarchy
 
 ## Files
-
 - `index.html` — main landing page
-- `styles.css` — responsive styling
-- `script.js` — mobile menu and footer year
-- `assets/favicon.svg` — simple favicon
+- `styles.css` — responsive styling and animations
+- `script.js` — mobile menu, scroll reveal, gentle parallax
+- `assets/` — favicon and stock photos
 
-## How to publish on GitHub Pages
+## Before publishing
+1. Replace the Formspree action:
+   `https://formspree.io/f/YOUR_FORMSPREE_ID`
+2. Replace the footer email:
+   `hello@casafiducia.ch`
+3. Add your real legal/company details if needed.
+4. Optional: add Privacy Policy and Impressum pages.
 
-1. Create a new GitHub repository, for example: `casafiducia`.
+## GitHub Pages
+1. Create or open your GitHub repository.
 2. Upload all files from this folder.
 3. Go to `Settings` → `Pages`.
-4. Under `Build and deployment`, choose:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/root`
-5. Save.
-6. Add custom domain: `casafiducia.ch`.
-7. In your domain DNS panel, point the domain to GitHub Pages according to GitHub's current instructions.
+4. Choose `Deploy from a branch`.
+5. Select your `main` branch and `/root`.
+6. Save and connect your custom domain `casafiducia.ch`.
 
-## Contact form
-
-The form currently uses a placeholder:
-
-```html
-https://formspree.io/f/YOUR_FORMSPREE_ID
-```
-
-Replace `YOUR_FORMSPREE_ID` with your real Formspree form ID.
-
-You can also replace the email address in the footer:
-
-```html
-hello@casafiducia.ch
-```
-
-## Recommended next edits
-
-- Add real phone/WhatsApp number.
-- Add privacy policy page.
-- Add company/legal information once the operating model is chosen.
-- Add real photos from Ticino or premium property details.
+## Photo notes
+The bundled stock photos were selected from Pexels search results and included as local assets for this demo package.
