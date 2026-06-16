@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://casafiducia.ch/sitemap.xml
+# Add Sitemap after connecting the final domain.

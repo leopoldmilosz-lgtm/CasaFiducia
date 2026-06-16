@@ -1,15 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Preview version. Replace with final sitemap after connecting casafiducia.ch. -->
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://casafiducia.ch/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://casafiducia.ch/privacy.html</loc>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://casafiducia.ch/impressum.html</loc>
-    <priority>0.3</priority>
-  </url>
 </urlset>
