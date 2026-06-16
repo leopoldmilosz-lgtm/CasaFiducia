@@ -1,32 +1,79 @@
-# CasaFiducia — Premium Landing Page
+# CasaFiducia — Final Production Website
 
-Updated static landing page for **CasaFiducia.ch** with:
-- selected stock photos
-- premium section layout
-- subtle motion and scroll-reveal animations
-- improved visual hierarchy
+Final static production package for **casafiducia.ch**.
 
-## Files
-- `index.html` — main landing page
-- `styles.css` — responsive styling and animations
-- `script.js` — mobile menu, scroll reveal, gentle parallax
-- `assets/` — favicon and stock photos
+## Included
 
-## Before publishing
-1. Replace the Formspree action:
-   `https://formspree.io/f/YOUR_FORMSPREE_ID`
-2. Replace the footer email:
-   `hello@casafiducia.ch`
-3. Add your real legal/company details if needed.
-4. Optional: add Privacy Policy and Impressum pages.
+- `index.html` — final landing page
+- `styles.css` — full responsive luxury styling
+- `script.js` — mobile menu, reveal animations and subtle parallax
+- `thank-you.html` — form redirect thank-you page
+- `privacy.html` — starter privacy policy template
+- `impressum.html` — starter legal/impressum template
+- `404.html` — simple not-found page
+- `robots.txt`
+- `sitemap.xml`
+- `CNAME` — GitHub Pages custom domain configuration
+- `assets/` — images and favicon
 
-## GitHub Pages
-1. Create or open your GitHub repository.
-2. Upload all files from this folder.
-3. Go to `Settings` → `Pages`.
-4. Choose `Deploy from a branch`.
-5. Select your `main` branch and `/root`.
-6. Save and connect your custom domain `casafiducia.ch`.
+## Required before publishing
 
-## Photo notes
-The bundled stock photos were selected from Pexels search results and included as local assets for this demo package.
+### 1. Replace Formspree placeholder
+
+In `index.html`, replace:
+
+```html
+https://formspree.io/f/YOUR_FORMSPREE_ID
+```
+
+with your real Formspree form endpoint.
+
+### 2. Replace email
+
+Replace:
+
+```html
+hello@casafiducia.ch
+```
+
+with your final email address if different.
+
+### 3. Complete legal details
+
+Update:
+- `privacy.html`
+- `impressum.html`
+
+with final business details, address, UID/registration number and data-processing information.
+
+### 4. GitHub Pages
+
+1. Upload all files to your GitHub repository.
+2. Go to `Settings` → `Pages`.
+3. Select:
+   - Source: `Deploy from a branch`
+   - Branch: `main`
+   - Folder: `/root`
+4. The `CNAME` file is already set to:
+
+```txt
+casafiducia.ch
+```
+
+### 5. DNS
+
+Point your domain DNS to GitHub Pages according to your registrar’s current instructions.
+
+Usually this means:
+- apex domain `casafiducia.ch` → GitHub Pages A records
+- `www` → CNAME to your GitHub Pages address
+
+Check GitHub’s current Pages documentation before final DNS setup.
+
+## Notes
+
+This production version is intentionally positioned as:
+
+**Private Property Care in Ticino**
+
+This sounds premium and discreet, while avoiding sounding too theatrical or like generic “luxury concierge”.
